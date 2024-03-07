@@ -1,32 +1,24 @@
 # Employee Attendance System
 
 ## Introduction
+This project presents a comprehensive design for an Employee Attendance System aimed at improving the attendance tracking process. It utilizes Entity-Relationship (ER) diagrams to represent the system's database design, detailing the relationships between entities such as employees, departments, roles, and attendance records.
 
-The Employee Attendance System is designed to manage and track the attendance of employees efficiently. This project focuses on building a robust database system using Entity-Relationship (ER) diagrams to establish the relationships between various entities involved in the process.
-
-This project is part of the Fundamentals of Database Systems course (2511) at Prince Sattam Bin Abdulaziz University, College of CE & Sciences (Information Systems).
-
-## Part 1: Requirements Analysis
-
-### Employee Attendance Management System Features
-
-1. **Employee Attendance Management:** The core feature of the system involves tracking and managing employee attendance. The ER diagram encapsulates the necessary details for attendance checking, including database structures and management processes.
-
-2. **Employee Management:** Gathering crucial information about employees is essential. This feature ensures storing employee data efficiently in the database, including personal details and work-related information.
-
-3. **Manage Attendance Information:** Efficient management of attendance information is critical for generating comprehensive attendance reports. This feature aids in calculating the number of employee absences accurately.
-
-## Target
-
-The primary objective of this project is to establish a reliable and consistent system for managing employee attendance.
+## Features
+- **Employee Attendance Management:** Allows for the tracking and management of employee attendance, including presence, absence, and vacation status.
+- **Employee Management:** Manages important information about employees, storing data within a dedicated database.
+- **Manage Attendance Information:** Supports the generation of comprehensive attendance reports and tracks employee absences.
 
 ## Requirements
+The system identifies employees by a unique number and includes details such as name, gender, age, email, department, and roles. It accommodates various employee types, including Administrative, Receptionist, and Technician, and handles different attendance statuses.
 
-The system must fulfill the following requirements:
+## Conceptual Design
+The conceptual design is articulated through ER diagrams, illustrating entities such as `Employee`, `Department`, `Role`, `Salary`, `Vacation`, and `Attendance Status` along with their relationships.
 
-1. **Unique Employee Identifier:** Each employee is assigned a unique identification number along with personal details such as first and last name, gender, age, email, department, and job role.
+## Physical Model
+Detailed data types and attributes for each entity are provided to guide the implementation of the system's database. This section includes the mapping of conceptual entities to database tables, specifying required and optional fields for entities like `Employee`, `Department`, `Role`, etc.
 
-2. **Employee Types:** Employees are categorized into three types: Administrative, Receptionist, or Technician.
+## Implementation
+The physical model's implementation is outlined through database tables and queries, providing a concrete foundation for the system's database structure.
 
-3. **Attendance Tracking:** The system records the status of each employee's attendance, including whether they are present, absent, or on vacation. For vacation cases, the system tracks the leave number, start and end dates, and reasons for the leave.
-
+## Queries
+Several SQL queries are proposed to interact with
