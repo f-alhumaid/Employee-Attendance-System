@@ -30,19 +30,3 @@ The system must fulfill the following requirements:
 
 3. **Attendance Tracking:** The system records the status of each employee's attendance, including whether they are present, absent, or on vacation. For vacation cases, the system tracks the leave number, start and end dates, and reasons for the leave.
 
-## Getting Started
-
-To get started with the Employee Attendance System:
-
-1. Clone this repository to your local machine.
-2. Set up the necessary database environment based on the provided ER diagram.
-3. Customize the system according to your organization's requirements.
-4. Run the application and start managing employee attendance efficiently.
-
-## Contributors
-
-- [Your Name or Organization](https://github.com/yourusername)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
